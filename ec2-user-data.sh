@@ -9,4 +9,3 @@ systemctl stop httpd
 systemctl start httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 echo "<h1>Hello World --->> $(hostname -f)</h1>" > /var/www/html/index.html
-echo "Changes again"
